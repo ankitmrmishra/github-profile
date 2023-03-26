@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2E2A68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.search {
+    margin-top: 2rem;
+    background-color: rgb(216, 188, 243);
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+
+}
+ input:focus{
+    background-color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   
+   margin: 3rem;
+    max-width: 40rem;
+    background-color: rgb(75, 2, 143);
+   
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+}
+.profileimage{
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    
+    border-radius: 100px;
+}
+.profileimage img{
+    width: 10rem;
+        height: 10rem;
+        border: 10px solid #2E2A68;
+        border-radius: 100px;
+
+}
+.detials{
+    color: white;
+   padding: 2rem;
+}
+.detials h2{
+    text-transform: uppercase;
+ margin: 0 1rem 0 0rem;
+}
+.detials h3{
+   
+margin: 0 -1rem 1rem  0;
+}
+.detials h3 a{
+    color: #717174;
+    text-decoration: none;
+    margin: 0 1rem 1rem 0rem;
+}
+.detials span{
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.dataaboutuser{
+   margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+
+}
+.followers , .following{
+    margin-left: 0.2rem;
+    text-align: center;
+    background-color: #2E2A68;
+    border-radius: 10px;
+    width: 7rem;
+}
+
+.repos {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.repos a{
+    color: white;
+    text-align: center;
+        background-color: #2E2A68;
+        border-radius: 5px;
+      padding: 0.3rem; 
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+@media all and  (max-width: 680px) {
+.container {
+
+        margin: 2rem;
+        max-width: 40rem;
+        background-color: rgb(75, 2, 143);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+}
